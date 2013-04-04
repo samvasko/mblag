@@ -12,6 +12,6 @@ _If you make something nice of this please send me a link, I would very much lik
 
 ## What?
 
-__ You need to install gem: redcarpet __
+__You need to install gem: redcarpet__
 
 Afterwards just run the script and magnificent demo will be shown
