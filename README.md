@@ -9,3 +9,9 @@ This is made for people who want to make their own blog, without introductory cl
 To transform this seed into something nice, you will have to make your own CSS, Html and maybe touch some Ruby.
 
 _If you make something nice of this please send me a link, I would very much like to see it_
+
+## What?
+
+__ You need to install gem: redcarpet __
+
+Afterwards just run the script and magnificent demo will be shown

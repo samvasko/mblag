@@ -1,5 +1,4 @@
 require 'redcarpet'
-require 'rainbow'
 # Samuel Vasko 2013 (I should be learinig Dynamics right now)
 
 # Generate index file if there is one use that
@@ -12,7 +11,7 @@ unless File.exists?('template_index.html')
 	index.write($faux)
 	index.close
 
-	puts 'Index created, you are ready to write stuff'.color(:green)
+	puts 'Index created, you are ready to write stuff'
 end
 
 unless File.exists?('template_post.html')
@@ -20,7 +19,7 @@ unless File.exists?('template_post.html')
 	template.write($faux)
 	template.close()
 
-	puts "Template file created".color(:green)
+	puts "Template file created"
 end
 
 #dirs && stuff
@@ -85,7 +84,7 @@ def writeHtml html, name
 	file.write(html)
 	file.close()
 	Dir.chdir($home)
-	puts 'Created html: '+name.color(:green)
+	puts 'Created html: '+name
 end
 
 puts "Checking files for changes \n \n"
